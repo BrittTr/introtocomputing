@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
+# Question 1
 
 nums = list(range(30, 61, 5))
 print(nums)
@@ -14,8 +10,8 @@ nums = nums[:: -1]
 print(nums)
 
 
-# In[2]:
 
+# Question 2
 
 newlist = []
 for i in range(0,21):
@@ -35,8 +31,8 @@ for i in newlist:
 print(total)
 
 
-# In[3]:
 
+# Question 3
 
 weather = {'sunny': 'play', 'rainy': 'watch TV', 'cloudy': 'walk'}
 
@@ -44,10 +40,3 @@ for key, value in weather.items():
     print('when', key, 'let us', value)   
     
 weather['snowy'] = 'ski' 
-
-
-# In[ ]:
-
-
-
-
